@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" type="image/gif" href="" /> -->
+
+    <title>Peg Solitaire</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <!-- <script src="/main.js" defer></script> -->
+    
+  </head>
+  
+  <body>
+    <script src="./main.js" defer></script>
+    
+    <div id="Game" align="center">
+      <h2 class="title">
+        Peg Solitaire
+      </h2>
+    </div>
+    <div align="center">
+      <button class="reset-button" onclick="location.href='.'" type="button">Reset</button>
+    </div>
+    <div class="ruleDescription" align="center">
+      <h4>
+        ルール説明
+      </h4>
+      駒は上下左右の四方向に、他の駒を飛び越すように動かせます。<br>
+      飛び越した駒は盤から取り除かれます。<br>
+      移動を繰り返し、駒を最後の一つにしましょう。
+    </div>
+    <div class="operationDescription" align="center">
+      <h4>
+        操作説明
+      </h4>
+      駒をクリックするとその駒の移動範囲が<font color="FF6464">赤色</font>で表示されます。<br>
+      赤色の移動範囲をクリックしてその駒を動かします。<br>
+      選び直す時には<font color="FFA511">選んだ駒（黄色で表示されてます）</font>と同じ駒をクリックしてください。
+    </div>
+
+    <footer class="page-footer">
+        <p><a href="https://back-space.jp">back-space.jp</a></p>
+    </footer>
+    
+  </body>
+</html>
